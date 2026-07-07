@@ -1,0 +1,96 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "outline-variant": "var(--color-outline-variant)",
+        "on-primary-fixed": "var(--color-on-primary-fixed)",
+        "surface-container": "var(--color-surface-container)",
+        "on-tertiary-fixed-variant": "var(--color-on-tertiary-fixed-variant)",
+        "on-background": "var(--color-on-background)",
+        "secondary": "var(--color-secondary)",
+        "tertiary-container": "var(--color-tertiary-container)",
+        "on-tertiary-fixed": "var(--color-on-tertiary-fixed)",
+        "on-primary": "var(--color-on-primary)",
+        "surface-bright": "var(--color-surface-bright)",
+        "on-secondary-fixed": "var(--color-on-secondary-fixed)",
+        "tertiary-fixed": "var(--color-tertiary-fixed)",
+        "primary-fixed": "var(--color-primary-fixed)",
+        "surface-container-highest": "var(--color-surface-container-highest)",
+        "secondary-container": "var(--color-secondary-container)",
+        "on-secondary-fixed-variant": "var(--color-on-secondary-fixed-variant)",
+        "tertiary": "var(--color-tertiary)",
+        "on-secondary": "var(--color-on-secondary)",
+        "surface-container-lowest": "var(--color-surface-container-lowest)",
+        "primary-container": "var(--color-primary-container)",
+        "on-error-container": "var(--color-on-error-container)",
+        "secondary-fixed": "var(--color-secondary-fixed)",
+        "on-primary-fixed-variant": "var(--color-on-primary-fixed-variant)",
+        "primary-fixed-dim": "var(--color-primary-fixed-dim)",
+        "on-error": "var(--color-on-error)",
+        "on-tertiary": "var(--color-on-tertiary)",
+        "on-primary-container": "var(--color-on-primary-container)",
+        "error-container": "var(--color-error-container)",
+        "surface-tint": "var(--color-surface-tint)",
+        "surface-container-high": "var(--color-surface-container-high)",
+        "outline": "var(--color-outline)",
+        "tertiary-fixed-dim": "var(--color-tertiary-fixed-dim)",
+        "inverse-primary": "var(--color-inverse-primary)",
+        "surface-container-low": "var(--color-surface-container-low)",
+        "inverse-surface": "var(--color-inverse-surface)",
+        "on-secondary-container": "var(--color-on-secondary-container)",
+        "inverse-on-surface": "var(--color-inverse-on-surface)",
+        "error": "var(--color-error)",
+        "secondary-fixed-dim": "var(--color-secondary-fixed-dim)",
+        "on-tertiary-container": "var(--color-on-tertiary-container)",
+        "on-surface-variant": "var(--color-on-surface-variant)",
+        "primary": "var(--color-primary)",
+        "on-surface": "var(--color-on-surface)",
+        "surface-dim": "var(--color-surface-dim)",
+        "surface": "var(--color-surface)",
+        "surface-variant": "var(--color-surface-variant)",
+        "background": "var(--color-background)"
+      },
+      borderRadius: {
+        DEFAULT: "0.25rem",
+        lg: "0.5rem",
+        xl: "0.75rem",
+        full: "9999px"
+      },
+      spacing: {
+        "container-padding": "32px",
+        "stack-md": "16px",
+        "gutter": "24px",
+        "stack-sm": "8px",
+        "unit": "8px",
+        "stack-lg": "32px"
+      },
+      fontFamily: {
+        "headline-lg": ["Inter", "sans-serif"],
+        "body-md": ["Inter", "sans-serif"],
+        "label-md": ["Inter", "sans-serif"],
+        "body-lg": ["Inter", "sans-serif"],
+        "headline-lg-mobile": ["Inter", "sans-serif"],
+        "headline-md": ["Inter", "sans-serif"],
+        "display-lg": ["Inter", "sans-serif"],
+        "body-sm": ["Inter", "sans-serif"]
+      },
+      fontSize: {
+        "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.01em", fontWeight: "700" }],
+        "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+        "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.05em", fontWeight: "600" }],
+        "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+        "headline-lg-mobile": ["24px", { lineHeight: "32px", fontWeight: "700" }],
+        "headline-md": ["24px", { lineHeight: "32px", fontWeight: "600" }],
+        "display-lg": ["48px", { lineHeight: "56px", letterSpacing: "-0.02em", fontWeight: "700" }],
+        "body-sm": ["14px", { lineHeight: "20px", fontWeight: "400" }]
+      }
+    }
+  },
+  plugins: [],
+}
